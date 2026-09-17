@@ -1,6 +1,6 @@
 ## 🔔 À propos de ce repo
 
-> Ce repo sert de bac à sable pour comprendre le mécanisme des **webhooks**.
+> Ce repository sert de bac à sable pour comprendre le mécanisme des **webhooks**.
 
 ```mermaid
 sequenceDiagram
