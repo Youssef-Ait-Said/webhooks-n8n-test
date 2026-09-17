@@ -28,4 +28,12 @@ sequenceDiagram
 - [x] Commit test → réception de l'event `push`
 
 ---
-*Made while learning n8n 🛠️*
+## 🧪 Log de test
+
+| Event | Trigger | Content-Type utilisé | Résultat |
+|---|---|---|---|
+| `ping` | Ajout du webhook | `x-www-form-urlencoded` | ✅ Reçu, mais payload wrappé dans un champ `"payload"` (string) |
+| `push` | Commit sur README | `application/json` | ✅ Reçu en JSON structuré (sans wrapping) |
+
+> 💡 Différence observée : `zen` + absence de `commits[]` = signature d'un `ping`.  
+> Un vrai `push` contient `ref`, `commits[]`, `pusher`.
