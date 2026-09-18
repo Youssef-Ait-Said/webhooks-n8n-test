@@ -87,3 +87,4 @@ n8n Webhook Node (capture le payload)
    ↓
 n8n Mail Node (notification avec titre du commit, auteur, fichiers modifiés...)
 ```
+> Testé et documenté par [@Youssef-Ait-Said](https://github.com/Youssef-Ait-Said) — septembre 2026.
